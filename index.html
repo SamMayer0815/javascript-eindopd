@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="yahtzee">
+    <!row 0>
+    <div class="sectie-0 sectie">Deel 1</div>
+    <!row 1>
+    <div class="sectie-1 sectie">Nodig</div>
+    <div class="score-1 score">PUNTEN</div>
+    <div class="punten" id="">SCORE</div>
+    <!row 2>
+    <div class="sectie-2 sectie">EENEN</div>
+    <div class="score-2 score">Tel alle enen</div>
+    <div class="punten" id="punten-1"></div>
+    <!row 3>
+    <div class="sectie-3 sectie">TWEEÉN</div>
+    <div class="score-3 score">Tel alle tweeën</div>
+    <div class="punten" id="punten-2"></div>
+    <!row 4>
+    <div class="sectie-4 sectie">DRIEÉN</div>
+    <div class="score-4 score">Tel alle drieén</div>
+    <div class="punten" id="punten-3"></div>
+    <!row 5>
+    <div class="sectie-5 sectie">VIEREN</div>
+    <div class="score-5 score">Tel all vieren</div>
+    <div class="punten" id="punten-4"></div>
+    <!row 6>
+    <div class="sectie-6 sectie">VIJVEN</div>
+    <div class="score-6 score">Tel alle vijven</div>
+    <div class="punten" id="punten-5"></div>
+    <!row 7>
+    <div class="sectie-7 sectie">ZESSEN</div>
+    <div class="score-7 score">Tel alle zessen</div>
+    <div class="punten" id="punten-6"></div>
+    <!row 8>
+    <div class="sectie-8 sectie">TOTAAL AANTAL PUNTEN</div>
+    <div class="punten" id="totaal-1"></div>
+    <!row 9>
+    <div class="sectie-9 sectie">EXTRA BONUS: Puntentotaal 63 of meer</div>
+    <div class="score-9 score">35 punten</div>
+    <div class="punten" id="totaalpunten-1"></div>
+    <!row 10>
+    <div class="sectie-10 sectie">TOTAAL van de bovenste helft</div>
+    <div class="punten" id="totaal-2"></div>
+    <!row 11>
+    <div class="sectie-11 sectie">DEEL 2</div>
+    <!row 12>
+    <div class="sectie-12 sectie">3 DEZELFDE</div>
+    <div class="score-12 score">Totaal v.d 5 stenen</div>
+    <div class="punten" id="punten-7"></div>
+    <!row 13>
+    <div class="sectie-13 sectie">4 DEZELFDE</div>
+    <div class="score-13 score">Totaal v.d 5 stenen</div>
+    <div class="punten" id="punten-8"></div>
+    <!row 14>
+    <div class="sectie-14 sectie">3 + 2 DEZELFDE</div>
+    <div class="score-14 score">25 punten</div>
+    <div class="punten" id="punten-9"></div>
+    <!row 15>
+    <div class="sectie-15 sectie">4 opeenvolgende nummers</div>
+    <div class="score-15 score">30 punten</div>
+    <div class="punten" id="punten-10"></div>
+    <!row 16>
+    <div class="sectie-16 sectie">5 opeenvolgende nummers</div>
+    <div class="score-16 score">40 punten</div>
+    <div class="punten" id="punten-11"></div>
+    <!row 17>
+    <div class="sectie-17 sectie">5 dezelfde</div>
+    <div class="score-17 score">50 punten</div>
+    <div class="punten" id="punten-12"></div>
+    <!row 18>
+    <div class="sectie-18 sectie">Vrije keuzen</div>
+    <div class="score-18 score">Totaal v.d 5 stenen</div>
+    <div class="punten" id="punten-13"></div>
+    <!row 19>
+    <div class="sectie-19 sectie">TOTAAL van de bovenste helft</div>
+    <div class="punten" id="totaal-3"></div>
+    <!row 20>
+    <div class="sectie-20 sectie">TOTAAl van de onderste helft</div>
+    <div class="punten" id="totaal-4"></div>
+    <!row 21>
+    <div class="sectie-21 sectie">TOTAAL</div>
+    <div class="punten" id="totaal-5"></div>
+  </div>
+  <div class="container">
+    <div class="dobbelsteen" id="dobbelsteen-1"></div>
+    <div class="dobbelsteen" id="dobbelsteen-2"></div>
+    <div class="dobbelsteen" id="dobbelsteen-3"></div>
+    <div class="dobbelsteen" id="dobbelsteen-4"></div>
+    <div class="dobbelsteen" id="dobbelsteen-5"></div>
+    <div class="rol">KLIK OM TE ROLLEN</div>
+  </div>
+  <div class="modal" id="myModal">
+    <div>
+      <div class="modal-content">
+        <p class="model-text">Klaar!</p>
+        <p class="endScore model-text"></p>
+        <button class="playAgain model-text">Play again</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+<script src="index.js"></script>
